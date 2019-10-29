@@ -4,7 +4,11 @@ import * as Font from 'expo-font';
 import { createIconSet } from '@expo/vector-icons';
 import fontAwesome from '../../assets/fonts/fa-solid-900.ttf';
 
-const glyphMap = { pencil: '\uf303', plus: '\uf067' };
+const glyphMap = {
+  pencil: '\uf303',
+  plus: '\uf067',
+  check: '\uf00c',
+};
 const fontAw = require('../../assets/fonts/fa-solid-900.ttf');
 
 const CustomIcon = createIconSet(glyphMap, 'FontAwesome', fontAw);
